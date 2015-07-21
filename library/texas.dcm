@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 2013-05-26 13:46:36
+EESchema-DOCLIB  Version 2.0
 #
 $CMP LM3S6911-EQC50
 D LM3S6911-EQC50, Ti Stellaris ARM-M3 MCU Ethernet PHY, LQFP100
@@ -106,6 +106,12 @@ $CMP TM4C1231H6PM
 D TM4C1231H6PM, Tiva ARM 32bit CortexM4 Microcotroller, 80MHz, 256kB Flash, 32kB SRAM, 2k EEPROM, LQFP64
 K ARM Tiva Cortex M4 MCU
 F http://www.ti.com/lit/ds/symlink/tm4c1231h6pm.pdf
+$ENDCMP
+#
+$CMP TMS470R1B768
+D TMS470R1B768, ARM7TDM Microcontroller, 768KB Flash, 48KB RAM, PQFP-144
+K ARM 7TDM uC TMS470
+F http://www.ti.com/lit/ds/symlink/tms470r1b768.pdf
 $ENDCMP
 #
 #End Doc Library
