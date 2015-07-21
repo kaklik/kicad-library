@@ -24,6 +24,18 @@ K I2C Hub
 F http://www.nxp.com/documents/data_sheet/PCA9518.pdf
 $ENDCMP
 #
+$CMP PCA9531
+D PCA9531, 8-bit I2C-bus two channel PWM LED dimmer
+K I2C, PWM, GPIO, SMBus
+F http://www.nxp.com/documents/data_sheet/PCA9531.pdf
+$ENDCMP
+#
+$CMP PCA9616
+D PCA9616, 3-channel multipoint Fast-mode Plus differential I2C-bus
+K I2C, SMBus, Differential, EMC, dI2C
+F http://www.nxp.com/documents/data_sheet/PCA9616.pdf
+$ENDCMP
+#
 $CMP PCF8563
 D PCF8563, Realtime Clock/Calendar I2C Interface, DIP/SOIC/TSSOP-8
 K I2C RTC Clock Calendar

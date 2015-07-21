@@ -1134,6 +1134,12 @@ K Dual HEXFET N-Channel P-Channel MOSFET
 F http://www.irf.com/product-info/datasheets/data/irf7343ipbf.pdf
 $ENDCMP
 #
+$CMP IRF7478PBF
+D IRF7478, HexFET SMPS MOSFET Power Mosfet, Vds 60V, Rdson 0.026R, Id 4.2A, Micro8
+K HexFET Power Mosfet N-MOS
+F http://www.irf.com/product-info/datasheets/data/irf7478pbf.pdf
+$ENDCMP
+#
 $CMP IRF7606PBF
 D IRF7606PBF, HexFET P-MOS Power Mosfet, Vds -30V, Rdson 0.09R, Id -3.6A, Micro8
 K HexFET Power Mosfet P-MOS
