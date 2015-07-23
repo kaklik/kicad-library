@@ -377,6 +377,12 @@ K Sigma-Delta ADC Converter 16bit I2C
 F http://www.linear.com/docs/25624
 $ENDCMP
 #
+$CMP LTC2487
+D LTC2487, 16-Bit 2-/4-Channel DS ADC with PGA, Easy Drive and I2C Interface, DFN-8
+K Sigma-Delta ADC Converter 16bit I2C
+F http://www.linear.com/docs/25624
+$ENDCMP
+#
 $CMP MCP3421A0T-E/CH
 D MCP3421A0T, Single Delta-Sigma 18bit Analog to Digital Converter, I2C Interface, SOT-23-6
 K Sigma-Delta ADC Converter 18bit I2C
