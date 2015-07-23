@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AB2_DRV8824/5
+D DRV8824, Stepper Motor Controller IC, Simple STEP/DIR Interface,QFN/SO
+K H-bridge, 1/32-step,
+F http://www.ti.com/lit/gpn/drv8824
+$ENDCMP
+#
 $CMP L298(H)N
 D Dual full bridge motor driver, up to 46V, 4A
 K H-bridge motor driver

@@ -332,6 +332,12 @@ K Low Power Half-Duplex RS-485 Transceiver 10Mbps
 F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
 #
+$CMP STWD100
+D STWD100, Watchdog timer circuit, 
+K Watchdog, MCU timer
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00176077.pdf
+$ENDCMP
+#
 $CMP TMC809
 D Microcontroller reset monitor
 F microchip/TCM809_reset_controller.pdf
