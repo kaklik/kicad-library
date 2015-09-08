@@ -1289,6 +1289,12 @@ K Adjustable Voltage Regulator 1.5A Negative
 F http://www.ti.com/lit/ds/symlink/lm337-n.pdf
 $ENDCMP
 #
+$CMP LM340-N
+D LM340-N, 1A Fixed Low Drop Positive Voltage Regulator, Fixed Output 5V, SOT223
+K REGULATOR LDO 5V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
 $CMP LM350T
 D LM350T, 3A 33V Adjustable Linear Regulator, TO-220
 K Adjustable Voltage Regulator 3A Positive
@@ -1667,12 +1673,6 @@ F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
 $CMP LP3963
-D LowDrop Linear Regulator (QPACK 5 pins)
-K REGUL POWER
-F regulator/lp3963.pdf
-$ENDCMP
-#
-$CMP LP3966
 D LowDrop Linear Regulator (QPACK 5 pins)
 K REGUL POWER
 F regulator/lp3963.pdf
