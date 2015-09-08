@@ -228,6 +228,12 @@ K 10bit DAC 1CH
 F http://www.analog.com/static/imported-files/data_sheets/AD7533.pdf
 $ENDCMP
 #
+$CMP AD7730
+D Two channel 24 bit Bridge Transducer ADC, SPI, TSSOP-24
+K ADC, strain gauge, load cell
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7730_7730L.pdf
+$ENDCMP
+#
 $CMP AD775
 D DA Converter 8 bits - 20MHz, PDIP/SOIC-24
 K DAC CNA
