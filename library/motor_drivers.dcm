@@ -18,6 +18,11 @@ K H-bridge motor driver
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf
 $ENDCMP
 #
+$CMP MIC4426
+D Dual 1.5A-Peak Low-Side MOSFET Driver
+F http://www.micrel.com/_PDF/mic4426.pdf
+$ENDCMP
+#
 $CMP PG001M
 D Parallel to serial data converter for SLA7042M/SLA7044M
 K Support IC for SLA7042M/SLA7044M
