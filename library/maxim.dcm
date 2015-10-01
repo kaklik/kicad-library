@@ -97,9 +97,9 @@ F http://datasheets.maximintegrated.com/en/ds/DS28EA00.pdf
 $ENDCMP
 #
 $CMP DS4520
-D PCF8574, 8 Bit Port/Expander to I2C Bus, DIP/SOIC-16
+D DS4520, 9 Bit Port/Expander to I2C Bus, 16-TSSOP
 K I2C Expander
-F http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf
+F https://datasheets.maximintegrated.com/en/ds/DS4520.pdf
 $ENDCMP
 #
 $CMP MAX31820
@@ -118,12 +118,6 @@ $CMP MAX31826
 D 1-Wire Digital Temperature Sensor with 1Kb Lockable EEPROM
 K 1Wire OneWire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/MAX31826.pdf
-$ENDCMP
-#
-$CMP PCF8574A
-D DS4520,  9-Bit I2C Nonvolatile I/O Expander Plus Memory, 16 TSSOP
-K I2C Expander, I/O
-F http://datasheets.maximintegrated.com/en/ds/DS4520.pdf
 $ENDCMP
 #
 #End Doc Library
